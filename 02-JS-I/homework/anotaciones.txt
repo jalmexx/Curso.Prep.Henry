@@ -1,0 +1,13 @@
+	* Variables
+
+
+	* Strings.- Las Strings son un tipo de variables en Javascrit que básicamente se componen de un conjunto de caracteres, por ejemplo: "Esta es una String".
+    Cuando se asigna una string a una variable, o se utiliza en alguna parte de un código, siempre debe ir encerrada entre comillas: "Así se utiliza una string" Las strings éstos caracteres puedes 
+	
+    * Funciones (argumentos, `return`).- Las funciones son conjuntos de instrucciones estructuradas que realizan una tarea específica o realizan alguna operación. Esta estructura de instrucciones puede llamarse desde cualquier parte de nuestra aplicación, por lo que son completamente necesarias cuando existen tareas se se repiten constantemente
+    - Los argumentos son variables que permiten ingresar datos a una función específica y realizar tares con esos datos dentro de la función.
+    - Return es una sentencia que se utiliza dentro de las funciones para terminar el proceso de la función en alguna parte del código interno por alguna condición específica y devuelve un determinado valor que puede ser utilizado en la línea en que fué llamada la función
+	
+    * Declaraciones `if`.- El operarador 'if' es un operador condicional que permite al programa definir acciones si se cumple con las condiciones que predeestablecemos cuando escribimos el programa.
+	
+    * Valores booleanos (`true`, `false`).- Los valores true (verdadero) y false (falso), son valores que definen a las variables que se declararon booleanas, una variable de tipo booleano es true siempre que no contenga los siguientes valores: false , 0 , -0, "" , null , undefined , y NaN 
