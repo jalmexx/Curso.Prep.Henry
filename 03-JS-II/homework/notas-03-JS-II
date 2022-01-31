@@ -1,0 +1,18 @@
+* `for` La sentencia for representa un ciclo compuesto por tres Expresiones:
+1.- Se declara y define una variable local con el valor inicial del ciclo
+2.- La segunda expresión es una condición que se evalúa antes de que itere el ciclo (mientras la condición no se cumpla,
+el ciclo reguirá iterando.)
+3.- La tercera expresión se evalúa despues de terminada cada iteración, generalmente aquí es donde 
+se modifica el valor de la variable de iteración.
+
+* `&&`, `||`, `!` .- Éstos son operadores lógicos que nos ofrecen la capacidad de comparar determinados
+valores en determinados espacios y tiempos en la ejecución del código que escribimos.
+* && - Es la la conjunción de dos valores, por ejemplo: if (a > 1 && a < 10), nos ofrece la posibilidad
+de determinar si el valor de a se encuentra en el rango de 2 a 9 y determinar que vamos a hacer
+el el caso que ésta condición se cumpla.
+
+* `||` - Realiza la disyunción de dos valores o condiciones, por ejemplo if (a === 1 || b < 3),
+Nos posibilita a realizar determinadas sentencias dentro del código si a es igial a 1 ó si b es
+igual a 3.
+
+* `!` - Es el operador lógico que significa NOT en Javascript
