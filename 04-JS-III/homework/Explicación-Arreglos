@@ -1,0 +1,38 @@
+Los arreglos (Arrays).- Los arreglos son estructuras de datos no nativas compuestas 
+por elementos que pueden ser de cualquier tipo contemplado en Javascrit: númeoros, caracteres
+strings, booleanos; pueden ser otros arreglos, y los cuales tener sus propios elementos.
+* Ejemplo de estructura de una arreglo: arreglo1 [1 ,a, "cadena" , true, otroarreglo[1,2,3]].
+* Definicion de arreglos.- Los arreglos se definen de la siguiente manera:
+var nombredelarreglo = [];
+En la definición podemos agregar o no elementos al arreglo:
+var nombredelarreglo = [elemento1, elemento2, elemento3];
+
+Acceder a elementos de un arreglo.- Los elementos de un arreglo tienen asignado un número llamado
+"índice" con el que los podemos llamar desde cualquier parte del código donde tengan vida. El primer
+elemento del arreglo tiene asignado el número 0, el segundo el 1 y así los demás. entonces
+para acceder el segundo elemento del arreglo "miarreglo[]" por ejemplo, escribiríamos:
+miarreglo[1], igualmente, para acceder al cuarto elemento, escribiríamos: miarreglo[3].
+
+* Agregar o eliminar elementos de un arreglo: Podemos agregar un elemento al final de un arreglo
+por medio de la función "push()" y eliminar el último valor de un arreglo con la función "pop()"
+
+* push().- Ésta función permite agregar un elemento al final de un arreglo, por ejemplo: si tengo
+un arreglo con la estructura "miarreglo[1,2,3,4]", si escribo: miarreglo.push(5), ahora mi arreglo
+tendría ésta nueva estructura: "miarreglo[1,2,3,4,5]".
+* pop().- ësta función devuelve el último elemento de un arreglo y además lo elimina del arreglo.
+Por ejemplo, se yo escribo:
+var a = miarreglo.pop();
+La variable "a" tendría el valor 5, pero además miarreglo se vería afectado, teniendo ésta nueva
+estructura: "miarreglo[1,2,3,4]"
+
+* Recorrer los valores de un arreglo.- Con los ciclos for y while se puede recorrer sobre cada
+uno de los elementos de un arreglo para realizar instrucciones con éstos en determinadas partes
+del código, por ejemplo: Para visualizar cada elemento del arreglo "miarreglo [1,2,3,4,5,6,7,8,9]", 
+tendría que escribir:
+
+for (let i =0; i < miarreglo.legth; i++){
+    console.log(miarreglo[i]);
+}
+
+
+
